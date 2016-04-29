@@ -9,7 +9,6 @@ function _rakecomplete() {
 
   # Error if no Rakefile
   if [[ ! -e Rakefile ]]; then
-    echo "Missing Rakefile"
     return 1
   fi
 
